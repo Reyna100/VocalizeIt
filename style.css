@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000046;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+    background: linear-gradient(to right, #1CB5E0, #000046);
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 50px auto;
+    color: white;
+}
+
+textarea {
+    width: 550px;
+    height: 300px;
+    display: block;
+    border: none;
+    outline: none;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #a7dfee47;
+    color: rgb(233, 225, 225);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+textarea::placeholder {
+    color: rgb(233, 225, 225);
+    font-size: 15px;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+img{
+    width: 20px;
+}
+
+select{
+    width: 400px;
+    color: white;
+    background-color: #a7dfee47;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background-image: url("images/drop_down.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-x: 360px;
+    background-position-y: 8px;
+}
+
+select option{
+    color: black;
+    background-color: #8bc0ce97;
+}
